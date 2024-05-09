@@ -1,0 +1,25 @@
+/* Alterando a cor de fundo do formulário */
+.container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.form-group label {
+    color: #333;
+}
+
+.form-control {
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

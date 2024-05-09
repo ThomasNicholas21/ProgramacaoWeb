@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Bootstrap</title>
+    <!-- Importando Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Importando estilo CSS customizado -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Formulário com Bootstrap</h2>
+        <form>
+            <!-- Nome -->
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+            </div>
+            <!-- E-mail -->
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+            </div>
+            <!-- Mensagem -->
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <!-- Botão de envio -->
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    <!-- Importando Bootstrap JS, necessário para funcionalidades como modais, dropdowns, etc. -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
